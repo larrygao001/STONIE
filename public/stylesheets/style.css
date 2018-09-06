@@ -1,0 +1,277 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+@media (min-width:600px){
+    .container{
+        width:100%;
+    } 
+}
+
+@-moz-document url-prefix() {
+    body {
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+        flex: 1 0 auto;
+    }
+
+    .signup-form, .signin-form, .profile, .shopping-cart, .checkout{
+        margin-top:80px;
+    }
+
+    footer{
+        /* position:relative; */
+        flex-shrink: 0;
+        /* margin-top: -30px; */
+    }
+
+}
+
+.content{
+    padding: 0 30px;
+    height:100vh;
+}
+.thumbnail{
+    margin:0;
+}
+.thumbnail img {
+    max-height: 150px;
+}
+
+.thumbnail .description {
+    color: #7f7f7f;
+}
+
+.price {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.navbar{
+    width: 100%;
+    position:fixed;
+    z-index: 1000;
+}
+.brand{
+    font-family: 'Hind Vadodara', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+}
+#welcome{
+    font-family: 'Hind Vadodara', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    vertical-align: sub;
+    color: #808080;
+}
+
+/* body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+} */
+
+/* Implement sticky footer*/
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    display: table;
+    width: 100%;
+    overflow-x: hidden;
+    /* overflow-y:hidden; */
+}
+
+.container {
+    display: table-row;
+    height: 80%;
+    padding: 20px;
+}
+.footer {
+    padding: 20px;
+}
+.footer-image{
+    float:right;
+}
+.clearfix {
+    overflow: auto;
+}
+#footer{
+    /* position: fixed; */
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(54, 50, 50);
+    color: rgb(199, 171, 171);
+    text-align: center;
+}
+
+/* slideshow */
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  /* max-width: 100%; */
+  max-height: 500px;
+  min-width: 100%;
+  position: relative;
+  /* margin: auto; */
+  margin-top:50px;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+    height: 450px;
+}
+.showcase{
+    max-width: 500px;
+    max-height: 600px;
+    float:right;
+    padding: 30px 0;
+}
+
+.signin{
+    position:relative;
+    display:inline-block;
+}
+
+#signedin{
+    line-height: 260px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 30px;
+    color:rgb(242, 250, 246);
+    
+}
+
+#stonehenge{
+    background-image: url("../img/stones/stonehenge2.jpg");
+    width:100%;
+    min-height:450px;
+    position:relative;
+}
+
+.bernstein{
+    padding-left:40px;
+    font-family: hindvadodara regular, sans-serif;
+    font-size: 16px;
+}
+#bernstein-left{
+    z-index: 5;
+    height:450px;
+    background: linear-gradient(to right, #858080 0%, black 100%);
+}
+#bernstein-right{
+    float:right;
+    height:450px;
+    background: black;
+}
+
+#amethyst{
+    float:right;
+    height:450px;
+    background: black;
+}
+#amethyst-left{
+    z-index: 5;
+    height:450px;
+    background: linear-gradient(to right, #130808 0%, rgb(133, 65, 126) 100%);
+}
+
+#intro{
+    padding:20px 30px; 
+    font-family:montserrat; 
+    font-size: 28px; 
+    font-weight: 900;
+    text-transform:uppercase
+}
+
+.why-buy{
+    padding:10px 30px 20px 30px;
+
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+/* .fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+} */

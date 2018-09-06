@@ -1,0 +1,152 @@
+<div class="row">
+    <div class="col-sm-6 col-md-4 col-md-offset-4 col-sm-offset-3">
+        <div id="success" class="alert alert-success" {{#if noMessages}}hidden{{/if}}>
+            {{ successMsg }}
+        </div>
+    </div>
+</div>
+
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides" id="stonehenge">
+    <div class="numbertext col-md-6" style="width: 800px;">
+        <h1>&nbsp Stones from all around the world</h1>
+        <h3 style="line-height: 2; max-width:600px; padding:30px 0 30px 60px">
+            Stones are not only a part of the environment<br/> 
+            But can also be part of stories<br/>
+            Part of memories <br/>
+            And part of our life</h3>
+    </div>
+
+    <div class="signin col-md-6" style="float:right; color:white; padding: 18px 30px">
+        {{#if loggedin}}
+            <div>
+                <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c:500" rel="stylesheet">
+                <h1 id="signedin" >Welcome to STONIE!</h1>
+            </div> 
+        {{else}}
+            <div>{{> signin}}</div>
+        {{/if}}
+        
+    </div>
+
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext col-md-7" id="bernstein-left">
+        <h1>&nbsp CURATED THIS WEEK</h1>
+        <div style="max-width:500px; margin-left:360px;margin-top:40px">
+            <h3 class="text-center" style="color:rgb(172, 89, 33)">Baltic amber</h3>
+            <h5 class="text-left bernstein">Alias: "Burn-Stone" (German: "Bernstein", Dutch: "Barnsteen")</h5>
+            <h5 class="text-left bernstein">Discovered Location : Odense, Denmark</h5>
+            <p class="text-left" style="padding-left:40px; font-size: 15px">Amber is fossilized tree resin, which has been appreciated for its color 
+                and natural beauty since Neolithic times.
+                Much valued from antiquity to the present as a gemstone, amber is made into a variety of decorative objects.
+                Amber is used in jewelry. It has also been used as a healing agent in folk medicine.</p>
+            <a href="#shop" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" style="margin-left:40px;">Shop Now</a>
+        </div>
+    </div>
+    <div class="col-md-5" id="bernstein-right"><img class ="showcase" src="img/stones/bernstein.jpg"></div>  
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext col-md-7" id="amethyst-left">
+        <h1>&nbsp CURATED THIS WEEK</h1>
+        <div style="max-width:500px; margin-left:360px;margin-top:40px">
+            <h3 class="text-center" style="color:rgb(148, 100, 194)">Amethyst</h3>
+            <h5 class="text-left bernstein">Discovered Location: Bratsk, Russia</h5>
+            <p class="text-left" style="padding-left:40px; font-size: 15px">Despite it’s prevalence, amethyst has been one of the world’s most revered stones for many centuries. 
+                Found in as many places as Brazil, Bolivia, Mexico, Africa, Canada, Russia, USA and Europe, this stone has a rich history of astonishing civilizations with its stunning, 
+                saturated beauty. While the Neolithic people in Europe it as a mere decorative emblem around 25,000 B.C., Ancient Greeks and Romans used amethyst in several ways from beads
+                in jewelry to amulets. </p>
+            <a href="#shop" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" style="margin-left:40px;">Shop Now</a>
+        </div>
+    </div>
+    <img class="col-md-5" id="bernstein-right" src="img/stones/amethyst.jpg" style="height:450px; padding:0">
+  </div>
+
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)" style="z-index: 6">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<div class="clear"></div>
+
+<section class="why-buy">
+    <div class="container">
+        <h1 class="title text-center">Why Buy Stones From STONIE?</h1><hr>
+        <div class="row">
+            <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                <div class="feature-block">
+                    <h3 class="title"><span class="icon-peace"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i></span> &nbsp Peace
+                        of Mind</h3>
+                    <p>Free returns within 30 days and our best price guarantee. Smooth delivery to your door, trackable
+                        and insured. Join the growing number of happy STONIE collectors around the world!</p>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                <div class="feature-block">
+                    <h3 class="title"><span class="icon-quality"><i class="fa fa-diamond" aria-hidden="true"></i></span> &nbsp Quality
+                        Artwork</h3>
+                    <p>STONIE’s collection contains the best emerging and established artists, hand-picked by our curators,
+                        just for you. Official certificate of authenticity, signed by the artist, with every purchase.</p>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                <div class="feature-block">
+                    <h3 class="title"><span class="icon-original"><i class="fa fa-home" aria-hidden="true"></i></span> &nbsp Own
+                        a True Original</h3>
+                    <p>Express yourself with a unique piece created by the hands of one of talented artists. Transform your
+                        home with the impact of one-of-a-kind original art.</p>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                <div class="feature-block">
+                    <h3 class="title"><span class="icon-service"><i class="fa fa-bell-o" aria-hidden="true"></i></span> &nbsp Personal
+                        Service</h3>
+                    <p>Your personal art concierge is here to help. STONIE’s friendly and transparent experience is a refreshing
+                        way to buy art. We’re only an e-mail or phone call away.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+</section>
+
+
+<div><h2 id="intro">From the collection</h2></div>
+
+<div class="content" id="shop">
+    {{# each products }}
+        <div class="row">
+            {{# each this }}
+                <div class="col-sm-6 col-md-4" style="height:360px;">
+                    <div class="thumbnail" style="height:336px;">
+                        <img src="{{ this.imagePath }}" alt="..." class="img-responsive">
+                        <div class="caption">
+                            <h3>{{ this.title }}</h3>
+                            <p class="description">{{ this.description }}</p>
+                            <div class="clearfix">
+                                <div class="price pull-left">${{ this.price }}</div>
+                                <a href="/add-to-cart/{{this._id}}" class="btn btn-success pull-right" role="button">Add to Shopping Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {{/each}}
+        </div>
+    {{/each}}
+</div>
+
+<script type="text/javascript" src="javascripts/slideshow.js"></script>
