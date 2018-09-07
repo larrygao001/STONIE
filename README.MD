@@ -22,12 +22,16 @@ Build with NodeJS, Express, Handlebars, and MongoDB
 ![Home Page](https://raw.githubusercontent.com/ambitiousbird/STONIE/master/intro/home2.png)
 
 
-- Stone shop
+- Stone Shop
 
 
 ![Shop](https://raw.githubusercontent.com/ambitiousbird/STONIE/master/intro/shop.png)
 
 
+```diff
++ this will be highlighted in green
+- this will be highlighted in red
+```
 - Shopping Cart
 
 
