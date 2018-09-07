@@ -7,9 +7,7 @@
 
 ## Introduction
 
-STONIE is an online trade platform for stones.
-
-Build with NodeJS, Express, Handlebars, and MongoDB
+STONIE is an E-commerce website for stones built with NodeJS, Express, Handlebars, and MongoDB
 
 [Click here](https://stonie.herokuapp.com/) for online preview.
 
