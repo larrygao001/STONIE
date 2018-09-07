@@ -29,8 +29,7 @@ Build with NodeJS, Express, Handlebars, and MongoDB
 
 
 ```diff
-+ this will be highlighted in green
-- this will be highlighted in red
+- -Shopping Cart
 ```
 - Shopping Cart
 
