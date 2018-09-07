@@ -1,3 +1,3 @@
-## Tutorial on How to Build a Shopping Cart with NodeJS/ Express
+## STONIE An online trade platform for stones
 
-This repository holds the source code of my YouTube series on how to create a shopping cart with NodeJS/Express/MongoDB
+Tech stack: Nodejs, Express
