@@ -43,6 +43,6 @@ STONIE is an E-commerce website for stones built with NodeJS, Express, Handlebar
 
 1. Run `npm install` to install all the dependencies.
 
-2. Run `npm start` to run the application
+2. Run `npm start` to run the application.
 
 3. Access the website at `localhost:3000`!
