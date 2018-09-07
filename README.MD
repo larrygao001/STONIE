@@ -17,12 +17,17 @@ Build with NodeJS, Express, Handlebars, and MongoDB
 ``` Node.js + Express + MongoDB + Handlebars + Heroku ```
 
 ## Key features
-- Home Page
+
+```diff
+Home Page
+```
 
 ![Home Page](https://raw.githubusercontent.com/ambitiousbird/STONIE/master/intro/home2.png)
 
 
-- Stone Shop
+```diff
+Stone Shop
+```
 
 
 ![Shop](https://raw.githubusercontent.com/ambitiousbird/STONIE/master/intro/shop.png)
@@ -31,13 +36,13 @@ Build with NodeJS, Express, Handlebars, and MongoDB
 ```diff
 Shopping Cart
 ```
-- Shopping Cart
-
 
 ![Shopping Cart](https://raw.githubusercontent.com/ambitiousbird/STONIE/master/intro/shopping-cart.png)
 
 
-- Checkout Page
+```diff
+Checkout Page
+```
 
 
 ![Checkout Page](https://raw.githubusercontent.com/ambitiousbird/STONIE/master/intro/checkout.png)
