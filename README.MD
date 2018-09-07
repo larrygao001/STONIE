@@ -18,31 +18,23 @@ Build with NodeJS, Express, Handlebars, and MongoDB
 
 ## Key features
 
-```diff
-Home Page
-```
+<h4 style="background-color: red">Home Page</h4>
 
 ![Home Page](https://raw.githubusercontent.com/ambitiousbird/STONIE/master/intro/home2.png)
 
 
-```diff
-Stone Shop
-```
+<h4 style="background-color: red">Stone Shop</h4>
 
 
 ![Shop](https://raw.githubusercontent.com/ambitiousbird/STONIE/master/intro/shop.png)
 
 
-```diff
-Shopping Cart
-```
+<h4 style="background-color: red">Shopping Cart</h4>
 
 ![Shopping Cart](https://raw.githubusercontent.com/ambitiousbird/STONIE/master/intro/shopping-cart.png)
 
 
-```diff
-Checkout Page
-```
+<h4 style="background-color: red">Checkout Page</h4>
 
 
 ![Checkout Page](https://raw.githubusercontent.com/ambitiousbird/STONIE/master/intro/checkout.png)
