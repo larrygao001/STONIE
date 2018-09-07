@@ -2,9 +2,9 @@ var Product = require('../models/product');
 
 var mongoose = require('mongoose');
 
-mongoose.connect('mongodb://lang:Mutuality%402018@cluster0-shard-00-00-o8d1s.mongodb.net:27017,cluster0-shard-00-01-o8d1s.mongodb.net:27017,cluster0-shard-00-02-o8d1s.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true',{
+mongoose.connect('mongodb://admin:Mutuality%402018@cluster0-shard-00-00-nf4q0.mongodb.net:27017,cluster0-shard-00-01-nf4q0.mongodb.net:27017,cluster0-shard-00-02-nf4q0.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true',{
   useNewUrlParser: true
-})
+});
 
 var products = [
     new Product({
