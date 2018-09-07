@@ -19,7 +19,7 @@ Build with NodeJS, Express, Handlebars, and MongoDB
 ## Key features
 - Home Page
 
-![Home Page](https://raw.githubusercontent.com/ambitiousbird/STONIE/master/intro/home.png)
+![Home Page](https://raw.githubusercontent.com/ambitiousbird/STONIE/master/intro/home2.png)
 
 - Stone shop
 
@@ -36,7 +36,7 @@ Build with NodeJS, Express, Handlebars, and MongoDB
 ## How to Use
 
 1. Run `npm install` to install all the dependencies.
-``` npm install ```
+
 2. Run `npm start` to run the application
 
 3. Access the website at `localhost:3000`!
