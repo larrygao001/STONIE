@@ -29,7 +29,7 @@ Build with NodeJS, Express, Handlebars, and MongoDB
 
 
 ```diff
-- -Shopping Cart
+Shopping Cart
 ```
 - Shopping Cart
 
