@@ -1,12 +1,20 @@
-## STONIE:  An online trade platform for stones
-
-Tech stack: Nodejs, Express
+## Table of contents
 
 - [Introduction](#introduction)
 - [Key Features](#key-features)
 - [How to Use](#how-to-use)
 
 
+## Introduction
+
+STONIE is an online trade platform for stones.
+
+Build with NodeJS, Express, Handlebars, and MongoDB
+
+[Click here](https://stonie.herokuapp.com/) for online preview.
+
+##### Tech stack
+``` Node.js + Express + MongoDB + Handlebars + Heroku ```
 
 ## Key features
 - Home Page
@@ -24,3 +32,11 @@ Tech stack: Nodejs, Express
 - Checkout Page
 
 ![Checkout Page](https://raw.githubusercontent.com/ambitiousbird/STONIE/master/intro/checkout.png)
+
+## How to Use
+
+1. Run `npm install` to install all the dependencies.
+``` npm install ```
+2. Run `npm start` to run the application
+
+3. Access the website at `localhost:3000`!
