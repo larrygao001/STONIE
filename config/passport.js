@@ -66,7 +66,7 @@ passport.use('local.signin', new LocalStrategy({
             return done(err);
         }
         if (!user) {
-            return done(null, false, {message: 'No user found.'});
+            return done(null, false, {message: 'User not found.'});
         }
         if (!user.validPassword(password)) {
             return done(null, false, {message: 'Wrong password.'});
